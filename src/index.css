@@ -38,3 +38,53 @@ header {
     margin: 0 auto;
     display: block;
 }
+
+.list {
+    display: flex;
+}
+
+.item {
+    margin-left: 50px;
+}
+
+.text > p {
+    margin: 3px 0 3px;
+}
+
+.text {
+    padding: 10px 0;
+}
+
+.image {
+    padding: 10px;
+    width: 264px;
+    height: 353px;
+    background-size: cover;
+}
+
+.image.f {
+    background-image: url("images/1.png");
+}
+.image.s {
+    background-image: url("images/2.png");
+}
+.image.t {
+    background-image: url("images/3.png");
+}
+
+.image > p {
+    background-color: rgb(201, 201, 201);
+    width: 90px;
+}
+
+.rating > span {
+    color: rgb(173, 173, 173);
+}
+
+.rating {
+    display: flex;
+}
+
+.price > span {
+    font-weight: bold;
+}
