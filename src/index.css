@@ -1,90 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-header {
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    border-bottom: 2px rgb(231, 231, 231) solid;
-    box-shadow: 0 0 10px rgb(201, 201, 201);
+.gray {
+    color: #918E9B;
 }
 
-.logo {
-    height: 30px;
-    margin: 0 auto 0 0;
-}
-
-#start {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px 10px;
-}
-
-#start > div {
-    width: 300px;
-    font-weight: 600;
-}
-
-.collage {
-    height: 250px;
-    margin: 0 auto;
-    display: block;
-}
-
-.list {
-    display: flex;
-}
-
-.item {
-    margin-left: 50px;
-}
-
-.text > p {
-    margin: 3px 0 3px;
-}
-
-.text {
-    padding: 10px 0;
-}
-
-.image {
-    padding: 10px;
-    width: 264px;
-    height: 353px;
-    background-size: cover;
-}
-
-.image.f {
-    background-image: url("images/1.png");
-}
-.image.s {
-    background-image: url("images/2.png");
-}
-.image.t {
-    background-image: url("images/3.png");
-}
-
-.image > p {
-    background-color: rgb(201, 201, 201);
-    width: 90px;
-}
-
-.rating > span {
-    color: rgb(173, 173, 173);
-}
-
-.rating {
-    display: flex;
-}
-
-.price > span {
+.bold {
     font-weight: bold;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--header {
+    margin: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+#cards {
+    display: flex;
 }
