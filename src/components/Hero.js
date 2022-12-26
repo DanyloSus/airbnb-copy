@@ -1,11 +1,10 @@
 import React from "react";
-import grid from "../images/collage.png"
 
 export default function Hero () {
     return (
         <section className="hero">
             <img 
-                src={grid}
+                src="../images/collage.png"
                 className="hero--photo"
             />
             <h1 className="hero--header">Online Experience</h1>
